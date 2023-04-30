@@ -42,11 +42,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 84.0, 427.0, 30.0, 30.0 ]
+					"patching_rect" : [ 80.0, 419.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -140,6 +140,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 89.5, 270.0, 177.5, 270.0 ],
 					"order" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
@@ -173,7 +174,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

@@ -223,11 +223,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.666666666666657, 314.0, 290.0, 62.0 ],
+					"patching_rect" : [ 228.666666666666657, 314.0, 226.999999999999972, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 451.400006532669067, 58.0, 211.0, 62.0 ],
-					"text" : "11-08-2021 21:20 178 mg/dL",
+					"text" : "29-12-2020 11:49 241 mg/dL",
 					"textjustification" : 1
 				}
 

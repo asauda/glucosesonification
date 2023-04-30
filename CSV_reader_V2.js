@@ -84,9 +84,9 @@ outlet(4, column5);
 }
 
 
-//Tableau dans lequel je vais mettre toutes les valeurs de la cinquième colonne 
+//Tableau dans lequel je vais mettre toutes les valeurs de la troisième colonne 
 var column3 = new Array();
-//Fonction pour sortir toutes les valeurs de la cinquième colonne
+//Fonction pour sortir toutes les valeurs de la troisième colonne
 function getAll(){
 	//si je suis à la fin du fichier
 	if (f.position >= f.eof) {
@@ -103,21 +103,21 @@ for(var i = f.position ; i <= f.eof ; i++){
 		data = f.readline();
 		//je créé un tableau en découpant toutes les chaines de caractères entre les virgules
 		var parsedData = data.split(",");
-		//j'ajoute au tableau "column5" la valeur de la cinquième colonne (index des tableaux commence à 0)
+		//j'ajoute au tableau "column5" la valeur de la troisième colonne (index des tableaux commence à 0)
 		column3.push(parsedData[2]);
 		//j'incrémente l'index de la boucle for à la ligne actuelle
 i = f.position
 
 }
 
-//post(column5.length)
+//post(column3.length)
 
-//je sors sur la 19ème sortie (l'indexe des sorties commence à 0) le tableau avec les valeurs de la 5eme colonne
-/* column5.forEach(function(column5Value,i) {
-    outlet(numColumns,column5Value)
+//je sors sur la 19ème sortie (l'indexe des sorties commence à 0) le tableau avec les valeurs de la 3eme colonne
+/* column3.forEach(function(column5Value,i) {
+    outlet(numColumns,column3Value)
 
 })*/
-//post(column5);
+//post(column3);
 outlet(2, column3);
 //je l'affiche dans la console
 
