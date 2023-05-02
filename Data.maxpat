@@ -40,13 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 23,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 48.5, 497.5, 322.0, 315.0 ],
+					"text" : "Sorties JS\n\n0 : Modèle de l'appareil \n1 : Numéro de série de l'appareil\n2 : Horodatage\n3 : Type d'enregistrement\n4: Historique de la glycémie en mg/dL (tests effectués à l'aide du capteur)\n5 : Numérisation de la glycémie en mg/dL (tests saisis manuelement)\n6 : Insuline à action rapide sans valeur numérique\n7 : Insuline à action rapide (unités)\n8 : Alimentation sans valeur numérique\n9 : Glucides (grammes)\n10 : Glucides (portions)\n11 : Insuline à action longue sans valeur numérique\n12 : Insuline à action longue (unités)\n13 : Remarques\n14 : Glycémie par bandelette mg/dL\n15 : Cétone mmol/L\n16 : Insuline repas (unités)\n17 : Correction insuline (unités)\n18 : Insuline modifiée par l'utilisateur (unités)"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-29",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 246.0, 367.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Traitement des données de temps"
 				}
 
@@ -59,7 +70,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 806.0, 423.75, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Traitement des données de glucose"
 				}
 
@@ -329,7 +339,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 487.57456140350871, 441.0, 50.0, 22.0 ],
-					"text" : "12:27"
+					"text" : "03:03"
 				}
 
 			}
@@ -342,7 +352,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 446.907894736842081, 389.0, 50.0, 35.0 ],
-					"text" : "23-12-2020"
+					"text" : "06-03-2021"
 				}
 
 			}
@@ -362,7 +372,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-24",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -374,7 +384,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -387,7 +397,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -400,7 +410,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -472,7 +482,7 @@
 				"box" : 				{
 					"comment" : "GetAll",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -649,7 +659,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 275.0, 268.0, 50.0, 22.0 ],
-									"text" : "2020"
+									"text" : "2021"
 								}
 
 							}
@@ -709,7 +719,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 187.0, 268.0, 50.0, 22.0 ],
-									"text" : "12"
+									"text" : "3"
 								}
 
 							}
@@ -721,7 +731,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 99.0, 268.0, 50.0, 22.0 ],
-									"text" : "23"
+									"text" : "6"
 								}
 
 							}
@@ -792,7 +802,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 130.0, 188.5, 70.0, 22.0 ],
-									"text" : "23 12 2020"
+									"text" : "6 3 2021"
 								}
 
 							}
@@ -852,7 +862,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 793.0, 268.0, 50.0, 22.0 ],
-									"text" : "27"
+									"text" : "3"
 								}
 
 							}
@@ -864,7 +874,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 705.5, 268.0, 50.0, 22.0 ],
-									"text" : "12"
+									"text" : "3"
 								}
 
 							}
@@ -949,7 +959,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 500.5, 268.0, 50.0, 22.0 ],
-									"text" : "12:27"
+									"text" : "03:03"
 								}
 
 							}
@@ -1022,7 +1032,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 472.5, 121.5, 124.5, 22.0 ],
-									"text" : "23-12-2020 12:27"
+									"text" : "06-03-2021 03:03"
 								}
 
 							}
@@ -1034,7 +1044,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 420.5, 268.0, 71.0, 22.0 ],
-									"text" : "23-12-2020"
+									"text" : "06-03-2021"
 								}
 
 							}
@@ -1058,7 +1068,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 736.0, 188.5, 50.0, 22.0 ],
-									"text" : "12 27"
+									"text" : "3 3"
 								}
 
 							}
@@ -1488,7 +1498,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 20,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 514.25, 230.5, 832.75, 22.0 ],
+					"patching_rect" : [ 514.434210526315837, 223.75, 832.75, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "CSV_reader_V2.js",
 						"parameter_enable" : 1
@@ -1527,7 +1537,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 577.25, 219.049999564886093, 523.75, 219.049999564886093 ],
+					"midpoints" : [ 577.25, 219.049999564886093, 523.934210526315837, 219.049999564886093 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1641,7 +1651,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 365.407894736842081, 269.5, 415.578947368421041, 269.5, 415.578947368421041, 219.5, 523.75, 219.5 ],
+					"midpoints" : [ 365.407894736842081, 269.5, 415.578947368421041, 269.5, 415.578947368421041, 219.5, 523.934210526315837, 219.5 ],
 					"order" : 0,
 					"source" : [ "obj-34", 0 ]
 				}
@@ -1722,7 +1732,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 628.5, 219.75, 523.75, 219.75 ],
+					"midpoints" : [ 628.5, 219.75, 523.934210526315837, 219.75 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1754,35 +1764,12 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 698.75, 219.75, 523.75, 219.75 ],
+					"midpoints" : [ 698.75, 219.75, 523.934210526315837, 219.75 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
-		"parameters" : 		{
-			"obj-18" : [ "js", "js", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "CSV_reader_V2.js",
-				"bootpath" : "~/Desktop/glucosesonification",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "button001",
 				"default" : 				{
