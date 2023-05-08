@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1646.0, 39.0, 1297.0, 732.0 ],
+		"rect" : [ 334.0, 87.0, 1144.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1053.0, 543.46875, 40.0, 22.0 ],
+					"text" : "*~ 2.5"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-34",
 					"lastchannelcount" : 0,
@@ -283,7 +295,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 451.400006532669067, 58.0, 211.0, 62.0 ],
-					"text" : "03-05-2022 15:54 202 mg/dL",
+					"text" : "08-05-2022 04:26 288 mg/dL",
 					"textjustification" : 1
 				}
 
@@ -422,6 +434,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-87", 0 ],
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"order" : 0,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1441.0, -40.0, 1041.0, 800.0 ],
+		"rect" : [ 471.0, 87.0, 497.0, 485.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -339,7 +339,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 487.57456140350871, 441.0, 50.0, 22.0 ],
-					"text" : "03:03"
+					"text" : "07:24"
 				}
 
 			}
@@ -352,7 +352,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 446.907894736842081, 389.0, 50.0, 35.0 ],
-					"text" : "06-03-2021"
+					"text" : "13-03-2022"
 				}
 
 			}
@@ -574,7 +574,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -1431.0, -17.0, 1141.0, 732.0 ],
+						"rect" : [ 34.0, 87.0, 885.0, 732.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -602,7 +602,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -659,7 +658,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 275.0, 268.0, 50.0, 22.0 ],
-									"text" : "2021"
+									"text" : "2022"
 								}
 
 							}
@@ -731,7 +730,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 99.0, 268.0, 50.0, 22.0 ],
-									"text" : "6"
+									"text" : "13"
 								}
 
 							}
@@ -802,7 +801,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 130.0, 188.5, 70.0, 22.0 ],
-									"text" : "6 3 2021"
+									"text" : "13 3 2022"
 								}
 
 							}
@@ -862,7 +861,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 793.0, 268.0, 50.0, 22.0 ],
-									"text" : "3"
+									"text" : "24"
 								}
 
 							}
@@ -874,7 +873,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 705.5, 268.0, 50.0, 22.0 ],
-									"text" : "3"
+									"text" : "7"
 								}
 
 							}
@@ -959,7 +958,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 500.5, 268.0, 50.0, 22.0 ],
-									"text" : "03:03"
+									"text" : "07:24"
 								}
 
 							}
@@ -1032,7 +1031,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 472.5, 121.5, 124.5, 22.0 ],
-									"text" : "06-03-2021 03:03"
+									"text" : "13-03-2022 07:24"
 								}
 
 							}
@@ -1044,7 +1043,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 420.5, 268.0, 71.0, 22.0 ],
-									"text" : "06-03-2021"
+									"text" : "13-03-2022"
 								}
 
 							}
@@ -1068,7 +1067,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 736.0, 188.5, 50.0, 22.0 ],
-									"text" : "3 3"
+									"text" : "7 24"
 								}
 
 							}
